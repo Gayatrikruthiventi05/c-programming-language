@@ -1,0 +1,24 @@
+//Find Lowest among n numbers.//
+#include<stdio.h>
+main()
+{
+	int i,n,num,ln;
+	num=5;
+	printf("enter all the numbers \n");
+	scanf("%d",&n);
+printf("enter number-1: ",i);
+	scanf("%d",&num);
+	ln=num;
+	i=2;
+	while(i<=n)
+	{
+printf("enter number-%d: ",i);
+scanf("%d",&num);
+	 if(num<ln)
+	 {
+	 	ln=num;
+	 }
+	 i++;
+	}
+	printf("\n lowest =%d",ln);
+}
